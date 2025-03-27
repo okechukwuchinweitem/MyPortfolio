@@ -15,24 +15,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Bachelor of Science degree (BSc)",
+      school: "Nnamdi Azikiwe University (UNIZIK)",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2014-2019",
+      achievements: [ "Course: Surveying and Geo-Informatics"],
+      skills: ["Cadastral Survey", "Instrumentation", "Setting-Out", "Ariel Photogrammetry"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "A professional in Surveying and Geo-Informatics who specializes in land measurement and data collection, utilizing skills in cadastral surveying, instrumentation, and setting-out for precise mapping.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Front-End Developer (FE-DEV)",
+      school: "Learnable 24",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2024-2025",
+      achievements: ["Knowledge: How the Internet Works", "Niche: Front-End Dev"],
+      skills: ["HTML5", "Taliwind CSS", "React", "TypeScrpit"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "i am a front-end developer who specializes in creating dynamic web applications using HTML5, Tailwind CSS, React, and TypeScript, ensuring exceptional user experiences through innovative technologies and best practices.",
     },
   ];
 

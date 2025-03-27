@@ -7,23 +7,23 @@ import {
   Award,
   Filter,
 } from "lucide-react";
-import olova from "@/assets/images/olova-B0FjVVEL.png";
+import Login from "@/assets/images/login.jpg";
 
 const ProjectShowcase = () => {
   const [filter, setFilter] = useState("All");
 
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "Buck Survey! Land Detailing and Documentation",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
+        "Buck Survey is a Map Detailing Web Application known for Land Documentation And Detailing which will help and solve the problems of Land Despute in Nigeria",
       tags: ["JavaScript", "Reactive", "Web Development"],
       category: "Frontend",
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        github: "https://github.com/okechukwuchinweitem",
+        demo: "/",
       },
-      image: olova,
+      image: Login,
       featured: true,
     },
     // You can add more projects here
@@ -54,7 +54,7 @@ const ProjectShowcase = () => {
           <div className="inline-block relative mb-4">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-2 relative z-10">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-emerald-400">
-                Projects
+                Ongoing Projects
               </span>
             </h1>
             <div className="absolute -bottom-2 left-0 w-full h-3 bg-gradient-to-r from-cyan-500 to-emerald-500 opacity-70 blur-sm"></div>
